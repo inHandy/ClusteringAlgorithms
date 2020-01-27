@@ -3,6 +3,7 @@ import math
 
 def euclidean_distance(p1, p2):
     """ Calculates the distance between two data points.
+
     :param p1: First point.
     :param p2: Second point.
     :return: The distance between p1 and p2.
@@ -19,6 +20,7 @@ def euclidean_distance(p1, p2):
 
 def closest_to_target(target, points):
     """ Finds the closest data point to the target.
+
     :param target: Target.
     :param points: Data points.
     :return: The index and distance of the closest point.
