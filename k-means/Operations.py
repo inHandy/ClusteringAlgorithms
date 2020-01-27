@@ -19,8 +19,8 @@ def euclidean_distance(p1, p2):
 
 def closest_to_target(target, points):
     """ Finds the closest data point to the target.
-    :param target: The target.
-    :param points: The data points.
+    :param target: Target.
+    :param points: Data points.
     :return: The index and distance of the closest point.
     """
     index = 0

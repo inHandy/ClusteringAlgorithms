@@ -18,7 +18,7 @@ class KMeans:
 
     def fit(self, x):
         """ Fits the model to the given data.
-        :param x: The data.
+        :param x: Data.
         """
         self.data = np.array(x)
         self.sample_size, self.n_of_attributes = x.shape
