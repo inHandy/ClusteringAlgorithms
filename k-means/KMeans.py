@@ -77,4 +77,4 @@ class KMeans:
 
         rand_indexes = random.sample(range(self.sample_size), self.n_of_clusters)
         for i in range(self.n_of_clusters):
-            self.centroids[i] = self.data[i]
+            self.centroids[i] = self.data[rand_indexes[i]]
